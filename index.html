@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quote Machine</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+        
+            .main{
+                height: 100vh;
+
+            }
+            #text{
+                padding-top: 2em;
+                padding-left: 2em;
+                padding-right: 2em;
+            }
+            .authName{
+                /* display: block; */
+                float: right;
+                margin-right: 5em;
+
+            }
+            .lowerPart{
+                clear: both;
+            }
+            #quote-box{
+                background-color: aliceblue;
+                border-radius:10%;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+            
+
+
+            }
+            .lowerPart{
+                width: 400px;
+                margin-left:3em ;
+                margin-right: 3em;
+                padding-bottom: 3em;
+                padding-top: 2em;
+            }
+            .btn_color{
+                background-color:cornflowerblue ;
+            }
+            .btn{
+                color: white;
+                }
+        
+        </style>
+    </head>
+    <body>
+        <div class=" main align-items-center d-flex justify-content-center" >
+
+        
+            <div  id="quote-box">
+                <div id="text">
+                    <span class="quote">"continious improvement is better than delayed perfection"</span></div>
+                <div class="authName" id="author">
+                    <span id="auth">"A2SV"</span>
+                </div>
+
+                <div class=" lowerPart row" id="lower">
+                    <div class="col-md-3 " id="left">
+                        <button class="btn btn_color btn-block" id="tweet">tweet</button>
+                    </div>
+                    <!-- <button class="btn btn_color" >T</button> -->
+                    <div class="col-auto text-right ml-auto" id="right">
+                        
+                        <button class="btn btn_color btn-block" id="quote-btn">new quote</button>
+                    </div>
+                    
+                    
+
+                </div>
+
+            </div>
+        </div>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script src="script.js" ></script>
+    
+
+        
+    </body>
+    
+</html>
+
+
